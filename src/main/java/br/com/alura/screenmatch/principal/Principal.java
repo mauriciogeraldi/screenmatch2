@@ -21,7 +21,6 @@ public class Principal {
     private final String ENDERECO = "https://omdbapi.com/?t=";
 
     private final String API_KEY = "&apikey=ee24111f";
-//    As variáveis chamadas de "final" não serão mais alteradas, são chamadas de constantes. E por padrão, devem estar em letra maiúscula.
 
     public void exibeMenu () {
         System.out.println("Digite o nome da série para busca: ");
