@@ -13,6 +13,8 @@ public class Principal2 {
                 .limit(3)
 //  Acima é para limitar a quantidade de items que serão impressos. Se
 //  retirarmos aquela linha fica normalmente com todos os itens da lista
+                .filter(n -> n.startsWith("N"))
+                .map(n -> n.toUpperCase())
                 .forEach(System.out::println);
     }
 }
